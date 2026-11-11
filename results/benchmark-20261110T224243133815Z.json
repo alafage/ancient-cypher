@@ -1,0 +1,228 @@
+{
+  "created_at": "2026-11-10T22:42:44.267290+00:00",
+  "data_dir": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data",
+  "prompt": "Transcribe the historical French text in this image exactly as written. Preserve the original spelling, accents, punctuation, and word order. Do not modernize, translate, explain, or add a heading. Return only the transcription.",
+  "normalization": "Unicode NFC and collapsed whitespace; case and punctuation preserved",
+  "models": [
+    {
+      "id": "claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "samples": [
+        {
+          "sample": "batch-1/sample-1",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-1\\img.png",
+          "transcription": "Marie Magdaleine fille du françois Bauid palefrenier de L'Escurie de Madame La Dauphine & de Magdaleine maricet sa femme a esté Inhumée dans nre Cimetiere Le quinzieme d'Avril mil six cent quatre vingt quatre par moy soussigné prestre dela Congregation dela mission en presence dudit Bauid pere delad. deffunte et de son marioz qui a signé. Lad. deceddée aagé d'un iour\nMarion Fiquinet",
+          "character_errors": 97,
+          "reference_characters": 345,
+          "word_errors": 35,
+          "reference_words": 59,
+          "seconds": 5.317
+        },
+        {
+          "sample": "batch-1/sample-10",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-10\\img.png",
+          "transcription": "Janvier 1686.\n\nBail . Estienne gnos, apoticaire\nle Collier . . . 11\n\nbailament . Jean Chavanel, Pierre\nle Comte . . . 12\n\nRenonciation . Marie Janiquoe . . 12\n\nbail . Robert Colle, a\nguillaume Cerou . . . 12\n\nVente . Pierre demontozon, a\nLeonard demontozon . . . 13\n\nMariage . Mathieu Martin, marie Boutellier . 13.\n\nTestament . Corgeom Rienor —\nfrancoue Colleor . . . 14\n\nbail . Guillaume Desrozier\nMichel Colombel . . 14\n\nbail . Corgeom rienor, jacques\ndubourdon . . . 14\n\nAprise . Claude Modoa, Anthoine\nSegouin . . . 14\n\nbail . Geoffroy de laroche\naniolou buonassin . . . 15\n\nVente . Messire Louis julien\nde Chamlay, a Jean robert\nde Coste . . . 15\n\nVente . Mathieu Masson, claude\nChaubot . . . 16",
+          "character_errors": 227,
+          "reference_characters": 591,
+          "word_errors": 96,
+          "reference_words": 93,
+          "seconds": 7.001
+        },
+        {
+          "sample": "batch-1/sample-2",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-2\\img.png",
+          "transcription": "Louis Christophe Duval né le quatorzesme du pnt mois de Mars l'an\nmil six centz quatrevingt quatre fils de Denys Duval cordonnier habitant\nde Belleville et de Jzabelle Mathieu sa femme a esté baptisé le seiziesme\ndudit mois et an par moy soussigné faisant les fonctions curiales en cette\nparre Le parrein a esté Christophe Joutz frere preur pour ~~Jean~~ Lelmand Egez\nell. Bontemps et la mareine Louise Dax ~~Herigaigne femme de Armand~~\nMarguerite Tessier femme de Armand dv. Heirigaigne premier valet\nde chambre de Mr Le Duc de Grandmont qui ont signé",
+          "character_errors": 113,
+          "reference_characters": 487,
+          "word_errors": 40,
+          "reference_words": 81,
+          "seconds": 8.06
+        },
+        {
+          "sample": "batch-1/sample-3",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-3\\img.png",
+          "transcription": "Sylvain Jacquet aagé de 28 ans paroissien de Mr. dela forge fourautt fils du defunt Pierre Jacquet et de Jeanne Galina natif de Bona diocese de limoges et demeurant en collery depuis plusieurs années d'une part et francoise fourrey aagée de 23 ans fille de fremin fourrey et de marie Jaillandier ses pere et mere natifve de la parroisse de st Morine de Nanterre et demeurant en collery depuis trois ans d'autre part. Apres la publication de leurs bans de mariage que nous avons canoniquement faite une fois seulement ete Le troisieme que ses sœurs ayant accordé dispense des deux autres publications, quy nous est demeurée, sans qu'il nous aye paru aucun empeschement ny opposition. Et aussy apres qu'ils ont este fiancez Le jour d'hyer ont este mariez Le septiesme du present mois d'avril mil six cent quatre vingt quatre en face de moy soussigné faisant les fonctions Curiales en cette parroisse et leurs a este donnée la benediction nuptiale selon la forme prescrite par l'eglise estant assistez de leurs parents et amis francois dela forge dudit Jacques de Bartholemy Jacquet berruyer habitant de cette ville son frere et dessous Jacques Beaulieu aydedela petite Ecurie du Roy son amy, et dela part dela dadite fourrey dessus Jacques fourrey marchand de vin et de Jean fourrey menuisier ses freres, Lesquels Le dit marié Jacquet et Beaulieu ne scavoir signer. Dolette telle en ont declaré",
+          "character_errors": 237,
+          "reference_characters": 1373,
+          "word_errors": 100,
+          "reference_words": 235,
+          "seconds": 8.411
+        },
+        {
+          "sample": "batch-1/sample-4",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-4\\img.png",
+          "transcription": "Sylvain Piuet aagé de 27 ans domestique de Monseigr le Duc de Beauvillier natif de la parre de Montigny diocese de Bourges et demeurant en cette parre depuis plusieurs années d'une part et Anne Montandon aagée de 27 ans fille de défunt David Montandon vivant suisse d'une des portes du parc de cette ville de Versailles et de Marguerite Vandalle ses pere et mere de cette parre d'autre part. Apres la publication que nous avons canoniquement faite de leurs bans de mariage par trois diverses fois sans qu'il nous ait paru aucun empeschement ny opposon et aussy apres qu'ils ont esté fiancez le jour d'hyer ont esté mariez ce jourd'huy dix septiesme du present mois d'avril mil six cent quatrevingt quatre en face de l'Eglise Monsieur Charles de Cunes de Boisfontaine Prieur de Villiers sont aumosnie de Mondit Seigr de Beauvillier qui leur a donné la benedixtion nuptiale selon la forme prescrite par l'Eglise le tout du consentement de Mr le Curé estant assistez de leurs parents et amis scavoir de la part dudit Piuet de Pierre Monisy valet de chambre de Monsr de Beaulieu son amy et de Charles Aubray aussy domestique chez Mondit Seigr de Beauvillier et de la part de la ditte Montandon de Marguerite Vandale sa mere et de Thomas Tiery son Beaufrere fontenier en cette ville de Versailles et ont declaré lesdittes Vandales et Montandon mere et fille ne scavoir signer",
+          "character_errors": 114,
+          "reference_characters": 1377,
+          "word_errors": 71,
+          "reference_words": 242,
+          "seconds": 8.209
+        },
+        {
+          "sample": "batch-1/sample-5",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-5\\img.png",
+          "transcription": "Apolline née [rayé] de Marie Perderau femme de Jean Roche de cette Paroisse le vingt troisieme jour de janvier mil sept cent quatre vingt cinq a esté baptizée le vingt quatrieme du meme mois par moy soussigné Pbre de la Congregation de la Mission faisant les fonctions Curiales en cette paroisse. Le Parrein a esté René de Labrosse Domestique de Monsieur, Et la Marreine Apolline prieur femme de françois Benard quiont signez.\nLabrosse apolline prieur [signature]",
+          "character_errors": 74,
+          "reference_characters": 420,
+          "word_errors": 31,
+          "reference_words": 72,
+          "seconds": 4.284
+        },
+        {
+          "sample": "batch-1/sample-6",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-6\\img.png",
+          "transcription": "Bernard la Croix aagé de 30 ans valet de chambre de Mr le Marquis de Modvers fils de pierre La Croix et de Jeanne Chiarnes natif de la parr. de Bersac en Bourdelois et demeurant en Bellay suyvant la Cour depuis plusieurs années d'une part. Et Nicole d'Sbarres aagée de 23 ans fille de feu françois et de Nicole Gamian [?] sa [?] de cette parr. d'autre part. après la publication que nous avons canoniquement faite de leurs bans de mariage par trois diverses fois sans qu'il nous ayt paru aucun empeschement ny opposon, Et aussi après qu'ils ont esté fiancez, Le Cour d'hyer ont esté mariez le vingt neufiesme du present mois de Janvier mil sept cent quatrevingt cinq en presence de Moy soussigne faisant les fonctions curiales en cette parr. et leurs a esté donnée La benediction nuptiale selon la forme prescrite par l'Eglise estant assistez de leurs parents et amis scavoir de la part dudit La Croix de françois des Noyers valet de chambre de Mr Le Comte d'Armagnac grand escuyer de france et de Jean de Peigneler bourgeois de Paris parr. St Germain L'Auxerrois rue St Thomas du Louvre fes amis [?] de la part de ladite d'Sbarres de la ditte sa mere et de Marguerite d'Sbarres sa soeur qui ont tous signé.\n\nLa Croix — de noyers\nNicolle Anjot — Marguerite d'Sbarres — Nicolle d'Sbarres",
+          "character_errors": 172,
+          "reference_characters": 1290,
+          "word_errors": 75,
+          "reference_words": 229,
+          "seconds": 8.752
+        },
+        {
+          "sample": "batch-1/sample-7",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-7\\img.png",
+          "transcription": "Marie fille de Jean Durand bonnettier, et de Barbe Cheual\nsa femme de cette parroisse, née le sixieme vingt septieme jour de Janvier\nmil six cent quatre vingt cinq, a esté baptizée le vingt huictieme du mesme\nmois et an que dessus par moy soubsigné Pbre de la Congregation de\nLa Mission faisant les fonctions Curialles en cette Parroisse.\nLe Parrein a esté Estienne Trioche Aide d'office de Mons. de Chalt\nLa Mareine Marie Bruneau\neau neuf qui a declaré ne scavoir signer, et La Mareine Marie Bruneau\nFemme Dedme Varlay pourvoyer de Mont. le Sénier de Dity\nLaq. ce a signé.\nmarie Gruneau",
+          "character_errors": 93,
+          "reference_characters": 563,
+          "word_errors": 43,
+          "reference_words": 96,
+          "seconds": 5.507
+        },
+        {
+          "sample": "batch-1/sample-8",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-8\\img.png",
+          "transcription": "Année 1686.\nJanvier.\n\nbail. Geoffroy Laroche à\nNicolas Hottenere 2\nbail. idem Claude Jovy 2\nAppr.ge. Joseph Gaillard, à Vincent\nMaigret 3\nbail à rente. Pierre Delalande, à\nAnthoine Baguier 3\nRenonciation. Louis Bonnezer 3\nbail. Henry Dujouis Tanchenier\nà Jacques Touilleviez 3\nCompte pour tant\n(?) obligons. Jean Yvonet à François\nChevoy 5\nDécharge. Jean Renaud 6\nOblig.on. Torsonnehier, à Felix\nGirardin 6\nDécharge. Sujeron cinquier Jacques\nJunior Abernaud Lespinouze 7\nMariage. Anthoine Rouston, et\nMarie Sulpice Moirize 7\nTestament. Pierre Malvicain, et\nM.e Jacques Lenvevier 7",
+          "character_errors": 149,
+          "reference_characters": 548,
+          "word_errors": 60,
+          "reference_words": 88,
+          "seconds": 6.1
+        },
+        {
+          "sample": "batch-1/sample-9",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-9\\img.png",
+          "transcription": "Janvier 1686\n\nProrogation / de bail. Messire Charles\nde laroche fouçauld, et\ntoussaint de Hinole . 7\n\nrenonciation Jean, et louis germain . 7\n\nAppr.ge Nicolas Bouchier, et\nLouis gobin . 8\n\nrenonciation. la veuve Jeanne Fournou\nlebigou . 8\n\nMariage Pierre lucas, Anne\nMartin Hamon . 8\n\nAppr.ge Louise Fournier, Marie\nHoulleo . 8\n\nbail. Nicolas prenost, et\nNicolas Denaz . 9\n\nVente . guillaume loisbo, fils\nde bolon a Jean le\nCarpentier . 9\n\ntransaction. Aguon jumeau, Eunoz\ngoogor, et Denise\nDangnon . 10\n\nQuittance. Obligation helaine\ngregoire, et guillaume\nNavaire . 11",
+          "character_errors": 139,
+          "reference_characters": 520,
+          "word_errors": 62,
+          "reference_words": 82,
+          "seconds": 5.713
+        }
+      ],
+      "successful_samples": 10,
+      "failed_samples": 0,
+      "character_error_rate": 0.1883151450625499,
+      "word_error_rate": 0.48003132341425214
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "samples": [
+        {
+          "sample": "batch-1/sample-1",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-1\\img.png",
+          "transcription": "Marie magdaleine fille du françois Anicet palefrenier de l'écurie de Madame La Dauphine & de Magdelaine Marier sa femme a esté baptisée dans ma paroisse le quatorzieme d'avril mil six cent quatre vingt quatre par moy soussigné prestre de la congregation de la mission",
+          "character_errors": 121,
+          "reference_characters": 345,
+          "word_errors": 31,
+          "reference_words": 59,
+          "seconds": 30.742
+        },
+        {
+          "sample": "batch-1/sample-10",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-10\\img.png",
+          "transcription": "Janvier 1766.\n\nVase. Estienne ... , ...\nla veuve\n\n... Jean ... , Pierre\nle ... \n\nR. ... . Marie ...\nbois. Robert ... , & Guillaume ...\n\nTerre. Pierre ... , & Fernand ...\n\nMariage ... Marie ... Marie Bourdieu.\nTest... Guillaume ... —\nFrançois ...\n\nbois. Guillaume Des... \nMichel ...\n\nbois. Guillaume ... Jacques\nde ...\n\n... Claude ... , Antoine\n...\n\nbois. Geoffroy de ...\n...\n\nTerre. Mathieu Louis ...\nde ... , à ... \nd’...\n\nTerre. Marguerite ... , Claude\n...",
+          "character_errors": 372,
+          "reference_characters": 591,
+          "word_errors": 81,
+          "reference_words": 93,
+          "seconds": 10.747
+        },
+        {
+          "sample": "batch-1/sample-2",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-2\\img.png",
+          "transcription": "Louis Christophe Dubail né le quatre du mois d’avril mil six cent quatre vingt quatre, fils de Denys du Val, cordonnier, et de Juliana [illisible], sa femme, a été baptisé le sixième dudit mois en [illisible] par moy soussigné faisant les fonctions [illisible] de cette paroisse. Le parrain a été Christophe [illisible], bourgeois [illisible], et la marraine [illisible], femme de [illisible]. [Illisible] de Mr [illisible] ont signé.",
+          "character_errors": 212,
+          "reference_characters": 487,
+          "word_errors": 49,
+          "reference_words": 81,
+          "seconds": 31.603
+        },
+        {
+          "sample": "batch-1/sample-3",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-3\\img.png",
+          "transcription": "Je ne peux pas transcrire ce texte avec suffisamment de fiabilité à partir de cette image.",
+          "character_errors": 1287,
+          "reference_characters": 1373,
+          "word_errors": 232,
+          "reference_words": 235,
+          "seconds": 17.056
+        },
+        {
+          "sample": "batch-1/sample-4",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-4\\img.png",
+          "transcription": "Sylvain Briet âgé de 27 ans domestique de Monseigneur [illisible] est natif de la ferme de Montigny, diocèse de Boulogne, et demeurant en cette paroisse depuis plusieurs années, [illisible] fils de défunt David [illisible] et de Marguerite [illisible], sa femme et mère de cette [illisible].\n\nLa publication que nous avons canoniquement faite de leurs bans de mariage par trois dimanches [illisible], sans qu’il nous aye paru aucun empêchement ny opposition, après qu’ils ont esté [illisible]...\n\n[illisible] Du consentement de Mr. le Curé, [illisible] assistés de leurs parents [illisible], par [illisible], fils de Pierre [illisible] et de Jeanne [illisible]. Charles [illisible], natif [illisible], et Marguerite [illisible], sa mère [illisible].",
+          "character_errors": 861,
+          "reference_characters": 1377,
+          "word_errors": 188,
+          "reference_words": 242,
+          "seconds": 26.775
+        },
+        {
+          "sample": "batch-1/sample-5",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-5\\img.png",
+          "transcription": "Pauline née [mot biffé] de Marie Bodermel et Jean Roche de St Sauveur le vingt troisième janvier mil sept cent quatre vingt cinq a été baptisée le vingt quatrième du même mois par moy soussigné Prêtre de la Congrégation de la Mission faisant les fonctions curiales en cette paroisse; Le Parrain a été René de La Mareine domestique de Monsieur et la Marraine a été la propre femme de François Benard qui ont signé.\n\nLa croix apposée par lui",
+          "character_errors": 128,
+          "reference_characters": 420,
+          "word_errors": 46,
+          "reference_words": 72,
+          "seconds": 26.505
+        },
+        {
+          "sample": "batch-1/sample-6",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-6\\img.png",
+          "transcription": "Le nommé La Croix âgé de 30 ans [illisible] natif de la paroisse de [illisible], fils du feu [illisible] La Croix et de femme [illisible], natif de la paroisse de [illisible], demeurant en [illisible] depuis plusieurs années dans [illisible], âgée de 23 ans fille de feu [illisible] et de [illisible], après la publication des bans de mariage par trois divers fois faites, sans opposition, [illisible] après quoi [illisible] ont été [illisible] en cette forme [illisible] La bénédiction nuptiale [illisible] par l’église [illisible] du curé [illisible] français de la part dudit La Croix [illisible] et de Jean de [illisible] demeurant [illisible] en cette paroisse [illisible] de la dite [illisible] de la mairie de Mang[illisible].\n\nNicolas Aimot  \nLa Croix de Noyers",
+          "character_errors": 825,
+          "reference_characters": 1290,
+          "word_errors": 174,
+          "reference_words": 229,
+          "seconds": 18.83
+        },
+        {
+          "sample": "batch-1/sample-7",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-7\\img.png",
+          "transcription": "Marie fille de Jean Durand bonnetier, & de Barbe Cheval\nde cette paroisse, née le vingt-septième jour de janvier\nmil sept cent quatre vingt quatre, a été baptisée le vingt huitième du même\nmois. Et ont été parrain [illisible] et marraine [illisible].\nLe missionnaire faisant les fonctions curiales en cette paroisse.\n[illisible] qui a déclaré ne savoir signer, et la marraine Marie Bruneau\nfemme de [illisible].\n[illisible] signé.",
+          "character_errors": 247,
+          "reference_characters": 563,
+          "word_errors": 64,
+          "reference_words": 96,
+          "seconds": 27.948
+        },
+        {
+          "sample": "batch-1/sample-8",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-8\\img.png",
+          "transcription": "Année 1866.\nJanvier,\n\nBail. Geoffroy Laroche …  \nNicolas … 2\n\nBail. Jean Claude Jory 2\n\nHypothèque. Joseph Gaillard, Adrien  \nMaignan 3\n\nContrat annuel. Pierre …, et  \nAntoine … 3\n\nReconnaissances. Louis Bonfig… 3\n\nBail. Georges … et  \nJoachim … 3\n\nContrat d’établissement. Jean … François  \n… 5\n\nDéclaration. Jean Renaud 6\n\nObligations. …, …  \nGuillard 6\n\nDécharges. Jeanne …  \n… 7\n\nMariage. Antoine …, et  \nMarie … 7\n\nReconnaissance. Pierre …, de  \nMᵉ Jacques … 7",
+          "character_errors": 280,
+          "reference_characters": 548,
+          "word_errors": 69,
+          "reference_words": 88,
+          "seconds": 31.478
+        },
+        {
+          "sample": "batch-1/sample-9",
+          "image": "C:\\Users\\adrie\\code-projects\\ancient-cypher\\data\\batch-1\\sample-9\\img.png",
+          "transcription": "Janvier 1826\n\nPromulgation du bail. Monsieur [illisible]\n[illisible] à\npour Saint [illisible]. 7\n\nRenonciation. Jean, Elois [illisible]. 7\n\nOpposition. Nicolas [illisible] & \nLouis joli. 8\n\nRenonciation. La [illisible] dame [illisible]\nobligée. 8\n\nMariage. Pierre [illisible], Anne -\nMartine [illisible]. 8\n\nOpposition. Louise Fournier, Marie\nFournier. 8\n\nBail. Nicolas [illisible] & \nNicolas [illisible]. 9\n\nVente. Guillaume [illisible], femme\nDelatour [illisible]\n[illisible]. 9\n\nTransaction. Agnès [illisible] -\nGeorges, [illisible]\nDuguay. 10\n\nQuitance. Obligation [illisible]\nGrégoire, [illisible]\n[illisible]. 11",
+          "character_errors": 321,
+          "reference_characters": 520,
+          "word_errors": 64,
+          "reference_words": 82,
+          "seconds": 29.969
+        }
+      ],
+      "successful_samples": 10,
+      "failed_samples": 0,
+      "character_error_rate": 0.6193771626297578,
+      "word_error_rate": 0.7815191855912295
+    }
+  ]
+}
